@@ -1,1 +1,1 @@
-# CS-at-NUS
+# CS2040 Data Structure and Algorithms
