@@ -7,11 +7,6 @@ import jdk.jfr.Frequency;
 
 /**
  * This is the main class for your Markov Model.
- *
- * Assume that the text will contain ASCII characters in the range [1,255].
- * ASCII character 0 (the NULL character) will be treated as a non-character.
- *
- * Any such NULL characters in the original text should be ignored.
  */
 public class MarkovModel {
 
@@ -31,7 +26,6 @@ public class MarkovModel {
 	 * @param seed the seed used by the random number generator
 	 */
 	public MarkovModel(int order, long seed) {
-		// Initialize your class here
 		this.order = order;
 		this.seed = seed;
 		// Initialize the random number generator
